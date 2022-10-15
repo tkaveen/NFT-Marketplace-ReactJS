@@ -1,0 +1,26 @@
+.header {
+  width: 100px;
+  height: 70px;
+  line-height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1111111;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  column-gap: 2.7rem;
+}
+
+.nav__item a {
+  text-decoration: none;
+  color: #fff;
+}

@@ -40,7 +40,14 @@ const Header = () => {
             <ul className="nav__list">
               {NAV__LINKS.map((item, index) => (
                 <li className="nav__item" key={index}>
-                  <NavLink to={item.url}>{item.display}</NavLink>
+                  <NavLink
+                    to={item.url}
+                    className={(navClass) =>
+                      navClass.isActive ? "active" : ""
+                    }
+                  >
+                    {item.display}
+                  </NavLink>
                 </li>
               ))}
             </ul>

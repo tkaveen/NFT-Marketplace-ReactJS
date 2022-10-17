@@ -54,13 +54,11 @@ const Header = () => {
           </div>
 
           <div className="nav__right d-flex align-items-center gap-5">
-            <button className="btn">
-              <Link to="/wallet" className=" d-flex gap-2 align-items-center ">
-                <span>
-                  <i class="ri-wallet-line"></i>
-                </span>
-                Connect Wallet
-              </Link>
+            <button className="btn d-flex gap-2 align-items-center ">
+              <span>
+                <i class="ri-wallet-line"></i>
+              </span>
+              <Link to="/wallet">Connect Wallet</Link>
             </button>
 
             <span className="mobile__menu">

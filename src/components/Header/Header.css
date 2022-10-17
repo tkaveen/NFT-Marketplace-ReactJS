@@ -53,6 +53,10 @@
   font-size: 0.8rem;
 }
 
+.nav__right .btn span i {
+  color: #fff;
+}
+
 .nav__right .btn a:hover {
   color: #fff;
 }
@@ -60,4 +64,5 @@
 .mobile__menu {
   color: #fff;
   font-size: 1.3rem;
+  display: none;
 }

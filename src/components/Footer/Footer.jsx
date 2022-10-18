@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
+import "./Footer.css";
 
 const MY__ACCOUNT = [
   {
@@ -85,7 +86,7 @@ const Footer = () => {
             <h5>My Account</h5>
             <ListGroup className="list__group">
               {MY__ACCOUNT.map((item, index) => (
-                <ListGroupItem key={index}>
+                <ListGroupItem key={index} className="list__item">
                   <Link to={item.url}>{item.display}</Link>
                 </ListGroupItem>
               ))}
@@ -96,7 +97,7 @@ const Footer = () => {
             <h5>Resources</h5>
             <ListGroup className="list__group">
               {RESOURCES.map((item, index) => (
-                <ListGroupItem key={index}>
+                <ListGroupItem key={index} className="list__item">
                   <Link to={item.url}>{item.display}</Link>
                 </ListGroupItem>
               ))}
@@ -107,7 +108,7 @@ const Footer = () => {
             <h5>Company</h5>
             <ListGroup className="list__group">
               {COMPANY.map((item, index) => (
-                <ListGroupItem key={index}>
+                <ListGroupItem key={index} className="list__item">
                   <Link to={item.url}>{item.display}</Link>
                 </ListGroupItem>
               ))}

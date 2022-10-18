@@ -3,6 +3,10 @@
   color: #fff;
 }
 
+.footer {
+  padding-bottom: 30px;
+}
+
 .list__item {
   background: transparent !important;
   padding-left: 0 !important;
@@ -54,4 +58,8 @@
 
 .social__links span a:hover {
   color: #e250e5;
+}
+
+.copyright {
+  font-size: 0.8rem;
 }

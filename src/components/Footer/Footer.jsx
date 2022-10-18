@@ -146,6 +146,11 @@ const Footer = () => {
               </span>
             </div>
           </Col>
+          <Col lg="12" className="mt-4 text-center">
+            <p className="copyright">
+              Copyrights 2022, Developed by Theshan Kaveen. All Rights Reserved.
+            </p>
+          </Col>
         </Row>
       </Container>
     </footer>

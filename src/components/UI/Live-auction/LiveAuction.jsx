@@ -26,9 +26,20 @@ const LiveAuction = () => {
 
               <div className="nft__content">
                 <h5 className="nft__title">Travel Monkey Club</h5>
-                <div className="creator__info">
+                <div className="creator__info_wrapper d-flex gap-3">
                   <div className="creator__img">
                     <img src={avt1} alt="" className="w-100" />
+                  </div>
+
+                  <div className="creator__info d-flex align-items-center justify-content-between">
+                    <div className="w-50">
+                      <h6>Created By</h6>
+                      <p>Trista Francis</p>
+                    </div>
+                    <div>
+                      <h6>Current Bid</h6>
+                      <p>4.89 ETH</p>
+                    </div>
                   </div>
                 </div>
               </div>

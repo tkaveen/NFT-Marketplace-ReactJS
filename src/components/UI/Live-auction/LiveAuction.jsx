@@ -3,6 +3,7 @@ import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import img1 from "../../../assets/images/img-01.jpg";
 import avt1 from "../../../assets/images/ava-01.png";
+import "./LiveAuction.css";
 
 const LiveAuction = () => {
   return (

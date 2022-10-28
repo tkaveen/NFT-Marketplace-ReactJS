@@ -32,8 +32,8 @@ const LiveAuction = () => {
                     <img src={avt1} alt="" className="w-100" />
                   </div>
 
-                  <div className="creator__info d-flex align-items-center justify-content-between">
-                    <div className="w-50">
+                  <div className="creator__info w-100 d-flex align-items-center justify-content-between">
+                    <div>
                       <h6>Created By</h6>
                       <p>Trista Francis</p>
                     </div>

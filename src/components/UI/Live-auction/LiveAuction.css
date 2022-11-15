@@ -66,3 +66,13 @@
 .history__link a:hover {
   color: #fff;
 }
+
+.live__auction__top h3 {
+  color: #fff;
+}
+
+.live__auction__top span a {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 1px solid #5142fc;
+}

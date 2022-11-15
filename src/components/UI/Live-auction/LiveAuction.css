@@ -9,7 +9,7 @@
 }
 
 .nft__img {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .nft__title {
@@ -24,14 +24,45 @@
 }
 
 .creator__info h6 {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: #fff;
   opacity: 80%;
   margin-bottom: 0;
+  font-weight: 300;
 }
 
 .creator__info p {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   color: #fff;
   margin-bottom: 0;
+  opacity: 100%;
+  font-weight: 500;
+}
+
+.bid__btn {
+  border: none;
+  outline: none;
+  padding: 5px 22px;
+  background: transparent;
+  border: 1px solid #5142fc;
+  font-size: 0.9rem;
+  color: #fff;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.bid__btn:hover {
+  background: #5142fc;
+  color: #fff;
+}
+
+.history__link a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 85%;
+  font-size: 0.9rem;
+}
+
+.history__link a:hover {
+  color: #fff;
 }

@@ -8,6 +8,11 @@
   z-index: 1111111;
 }
 
+.header__shrink {
+  background: #14141f;
+  box-shadow: 3px 3px 6px -3px #e250e5;
+}
+
 .navigation {
   display: flex;
   align-items: center;
@@ -18,6 +23,7 @@
   display: flex;
   align-items: center;
   column-gap: 2.7rem;
+  margin-bottom: 0;
 }
 
 .nav__item a {
@@ -39,6 +45,7 @@
   background-clip: text;
   -webkit-text-stroke: 3px transparent;
   -webkit-text-fill-color: #14141f;
+  margin-bottom: 0;
 }
 
 .nav__right .btn {

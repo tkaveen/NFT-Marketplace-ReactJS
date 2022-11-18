@@ -28,7 +28,7 @@ const NftCard = (props) => {
             </div>
             <div>
               <h6>Current Bid</h6>
-              <p>{currentBid}</p>
+              <p>{currentBid} ETH</p>
             </div>
           </div>
         </div>

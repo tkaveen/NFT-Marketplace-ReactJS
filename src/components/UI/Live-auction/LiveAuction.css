@@ -13,11 +13,18 @@
 }
 
 .nft__title {
-  color: #fff;
-  font-size: 1rem;
   margin-bottom: 15px;
 }
 
+.nft__title a {
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.nft__title a:hover {
+  color: #fff;
+}
 .creator__img {
   width: 40px;
   height: 40px;
